@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@syncfusion/ej2-vue-dropdowns": "^19.2.51",
+        "@tailwindcss/forms": "^0.2.1",
+        "@vue/compiler-sfc": "^3.1.5",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.1.0",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.0-beta.17",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.1",
+        "postcss-import": "^12.0.1",
+        "tailwindcss": "^2.0.2",
+        "vue": "^3.1.5",
+        "vue-loader": "^16.4.1"
+    },
+    "dependencies": {
+        "@vueform/multiselect": "^2.1.0",
+        "laravel-echo": "^1.11.1",
+        "postcss-custom-properties": "^11.0.0",
+        "pusher-js": "^7.0.3",
+        "select2": "^4.1.0-rc.0",
+        "vue-2-3": "^1.0.0",
+        "vue-multiselect": "^2.1.6",
+        "vue-next-select": "^2.9.0",
+        "vue-persian-datetime-picker": "^2.8.0",
+        "vue-virtual-scroll-list": "^2.3.2",
+        "vue3-smooth-scroll": "^0.8.1"
+    }
+}
